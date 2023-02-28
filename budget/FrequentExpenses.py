@@ -6,7 +6,6 @@ expenses = Expense.Expenses()
 expenses.read_expenses("data/spending_data.csv")
 
 spending_categories = []
-
 for expence in expenses.list:    
     spending_categories.append(expence.category)
 
